@@ -76,6 +76,19 @@ local markdown_plugins = {
   },
 }
 
+local custom = {
+  {
+    "github/copilot.vim",
+  },
+
+  {
+    'ludovicchabant/vim-gutentags',
+    config = function()
+      require("plugins").load_cfg("gutentags_cfg")
+    end,
+  },
+}
+
 local git_tools = {
   -- A git tool like magit in Emacs
   {
@@ -808,4 +821,5 @@ return {
   colorscheme,
   completion,
   coding_enhance,
+  custom,
 }

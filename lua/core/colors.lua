@@ -6,7 +6,7 @@ local M = {
   -- "kanagawa" by default
   -- Available theme value:
   --  "kanagawa", "deus", "night","dawn","day","nord","dusk"+"fox"
-  theme = "kanagawa",
+  theme = "deus",
 }
 
 -- Try to update the theme value if the lua/custom.lua file exist.

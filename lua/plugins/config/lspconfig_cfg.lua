@@ -150,6 +150,10 @@ if installer.settings then
 
   local ensure_installed_server = {
     "sumneko_lua",
+    "eslint",
+    "tsserver",
+    "rust_analyzer",
+    "gopls",
   }
 
   for _, lang in pairs(ensure_installed_server) do

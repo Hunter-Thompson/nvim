@@ -121,6 +121,8 @@ if undo_stat and has_persist == 1 then
   opt.undodir = undo_dir
 end
 
+vim.o.clipboard = "unnamedplus"
+
 -- nvui specific settings
 if vim.g.nvui then
   vim.opt.guifont = [[Cascadia Code:h12,FiraCode\ Nerd\ Font\ Mono:h12]]

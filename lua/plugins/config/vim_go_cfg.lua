@@ -25,3 +25,10 @@ vim.g.go_highlight_types = 1
 vim.g.go_highlight_variable_assignments = 0
 vim.g.go_highlight_variable_declarations = 0
 vim.g.go_doc_keywordprg_enabled = 0
+vim.g.go_metalinter_autosave = 1
+vim.g.go_metalinter_command = "golangci-lint"
+vim.g.go_fmt_command = "gofumpt"
+vim.g.go_metalinter_autosave_enabled = {'dupl', 'gofmt', 'gosimple', 'ineffassign', 'misspell', 'nakedret', 'staticcheck','unconvert', 'unused','varcheck', 'errorlint'}
+
+
+
